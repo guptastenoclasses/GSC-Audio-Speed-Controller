@@ -1,0 +1,17 @@
+GSC Audio Speed Controller - Cloud APK Build (Android Studio ki zaroorat nahi)
+
+1. GitHub.com par free account banayein / sign in karein.
+2. New repository banayein. Naam: GSC-Audio-Speed-Controller. Public ya Private dono theek hain.
+3. Is ZIP ko computer par extract karein.
+4. Extracted folder ke andar ki sab files aur .github folder repository mein upload karein. Dhyan rahe .github/workflows/android-apk.yml bhi upload ho.
+5. GitHub repository mein Actions tab kholein.
+6. 'Build GSC Android APK' workflow chunein.
+7. 'Run workflow' dabayein aur confirm karein.
+8. Build green/success ho jaaye to us run ke neeche Artifacts mein GSC-Audio-Speed-Controller-debug.zip download karein.
+9. Artifact ZIP extract karein. app-debug.apk milegi. Use Android phone par bhejkar install karein.
+
+Note:
+- APK abhi debug-signed test build hogi, Play Store release build nahi.
+- Pehli baar install karte waqt Android 'Install unknown apps' permission maang sakta hai. Sirf apni banayi hui APK par permission dein.
+- Build fail ho to Actions ke red error ka screenshot/share karein.
+- GitHub account aur internet sirf build ke waqt chahiye; installed app ka audio playback offline ho sakta hai.
